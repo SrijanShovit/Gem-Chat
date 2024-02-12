@@ -16,7 +16,7 @@ PDFChat is a project that leverages Google's Gemini Pro model. It comprises of t
 
 ***Cache optimization***
 
-Gemini Pro is free to use for 60 requests/min. However, if we store the recently asked queries in the session state as cache, those can be fetched with thunder speed reducing request traffic to the model.
+Gemini Pro is free to use for 60 requests/min. However, if we store the recently asked queries in the session state as cache, those can be fetched with thunder speed reducing request traffic to the model. The result was over 5000 times faster response and reduced model calls(as per usage). This can even help in saving credits or money when using proprietary models.
 
 ## Performance Comparison
 
@@ -27,6 +27,7 @@ First time request  | Second time request served by cash
 5-12   | 0.001
 
 ---
+## Screenshots 📸
 
 ![Home Screen](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(103).png)
 
@@ -59,22 +60,39 @@ Time proof
 - **Answer Generation**: 🤖 Leverages Gemini to produce high-quality responses.
 - **Cache/Data Persistence/Optimization**: 📦 Streamlit's session state used to store recent queries.
 
+***Cache optimization***
 
+Just like Q&A module, same idea has been used for cache implementation. But here, I have used combination of question and image in bytes format to generate cache key using hashing. This cache key is used to store responses. This was important as query or image or both may change, so I had to handle all the cases. Cached response were only needed if none of the two changed. The result was over 250 times faster response and reduced model calls(as per usage). This can even help in saving credits or money when using proprietary models.
 
+## Performance Comparison
 
+Response Time in seconds is used as metric.
+
+First time request  | Second time request served by cash
+------------- | -------------
+5-35   | 0.005-0.020
+
+---
 
 ## Screenshots 📸
-![Home Screen](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(52).png)
+![Home Screen](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(110).png)
 
 ---
 
-![PDF Uploaded](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(44).png)
+![Home Page 2](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(111).png)
 
 ---
 
-![Q1](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(45).png)
+The Model smartly handles the case when you don't provide some query.
+
+
+![Q1](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(113).png)
 
 ---
+
+***Example queries***
+
+https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Tanishka%20SOB%20Thumbnail.png
 
 ![Q2](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(46).png)
 
