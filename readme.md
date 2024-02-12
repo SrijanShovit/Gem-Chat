@@ -126,30 +126,43 @@ Prompt: Write a Twitter post.
 
 ![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(123).png)
 
+Cached response:
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(124).png)
 
 ---
 
-![Q5](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(51).png)
+![Q5](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/palak_photo-removebg-preview.png)
+
+Prompt: Write a Twitter post.
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(125).png)
+
+---
+
+***Ok, Now Food Time!!😋🤤***
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(126).png)
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(127).png)
 
 ---
 
 ## Technologies Used 🛠️
 
-- **Streamlit**: 
-- **Google Generative AI Package**: 
-- **Google Gemini**: 
+- **Streamlit**: 🚀 A Python library that allows you to create interactive web apps for machine learning and data science projects.
+- **Google Generative AI Package**: 🎨 The Google AI Python SDK enables developers to use Google's state-of-the-art generative AI models (like Gemini and PaLM) to build AI-powered features and applications.
+- **Google Gemini**: 🔮 Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2
+- **libhash**: 🔐 A library used for generating and managing cryptographic hashes, ensuring data integrity and security.
+
 
 ## Usage 🖥️
 
-To use PDFChat, follow these steps:
-
-1. **Upload a PDF file**: 📂 Upload a PDF file containing textual content.
-2. **Ask questions**: ❓ Ask questions related to the content of the uploaded PDF file.
-3. **View answers**: 👀 Wait for the answers to be generated (approximately 2 minutes) and view them on the interface.
+It's nothing less than ChatGPT!!😉🙃
 
 ## Getting Started 🚀
 
-To run PDFChat locally, you'll need to have Python installed. Then, follow these steps:
+To run Gem-Chat locally, you'll need to have Python installed. Then, follow these steps:
 
 1. **Clone the repository**: 📁 Clone this repository to your local machine.
 2. **Install dependencies**: 💻 Install the required dependencies using pip:
@@ -161,14 +174,18 @@ To run PDFChat locally, you'll need to have Python installed. Then, follow these
 3. **Run the app**: ▶️ Run the Streamlit app:
 
    ```
-   streamlit run pdf_chat.py
+   streamlit run app.py
+
+   or
+
+   streamlit run vision.py
    ```
 
 4. **Access the app**: 🌐 Access the Streamlit app in your web browser.
 
 ## Contributing 🤝
 
-Contributions to PDFChat are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+Contributions to Gem-Chat are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ---
 
