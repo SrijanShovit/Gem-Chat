@@ -1,6 +1,3 @@
-https://www.pexels.com/photo/brown-hummingbird-selective-focus-photography-1133957/
-
-
 # Gem-Chat 💬💬
 
 PDFChat is a project that leverages Google's Gemini Pro model. It comprises of two parts: 
@@ -83,7 +80,7 @@ First time request  | Second time request served by cash
 
 ---
 
-The Model smartly handles the case when you don't provide some query.
+The Model smartly handles the case when you don't provide some prompt.
 
 
 ![Q1](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(113).png)
@@ -92,21 +89,43 @@ The Model smartly handles the case when you don't provide some query.
 
 ***Example queries***
 
-https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Tanishka%20SOB%20Thumbnail.png
+---
 
-![Q2](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(46).png)
+![Q](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Tanishka%20SOB%20Thumbnail.png)
+
+The prompt was to generate a Linkedin post. Here's the result:
+
+![Q](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(114).png)
 
 ---
 
-![Q3](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(49).png)
+![Q3](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(115).png)
+
+The prompt was to generate image description.
+
+![Q3](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(116).png)
+
 
 ---
 
-![Q4](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(50).png)
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(118).png)
+
+Image Link: https://www.pexels.com/photo/brown-hummingbird-selective-focus-photography-1133957/
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(119).png)
+
+Cached response:
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(122).png)
 
 ---
 
-![Q5](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(47).png)
+![Uploaded image](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/palak%20photo.jpg)
+
+Prompt: Write a Twitter post.
+
+![Q4](https://github.com/SrijanShovit/Gem-Chat/blob/main/images/Screenshot%20(123).png)
+
 
 ---
 
