@@ -152,7 +152,7 @@ Prompt: Write a Twitter post.
 
 - **Streamlit**: 🚀 A Python library that allows you to create interactive web apps for machine learning and data science projects.
 - **Google Generative AI Package**: 🎨 The Google AI Python SDK enables developers to use Google's state-of-the-art generative AI models (like Gemini and PaLM) to build AI-powered features and applications.
-- **Google Gemini**: 🔮 Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2
+- **Google Gemini**: 🔮 Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2.
 - **libhash**: 🔐 A library used for generating and managing cryptographic hashes, ensuring data integrity and security.
 
 
