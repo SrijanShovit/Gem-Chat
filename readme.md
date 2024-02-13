@@ -1,6 +1,6 @@
 # Gem-Chat 💬💬
 
-PDFChat is a project that leverages Google's Gemini Pro model. It comprises of two parts: 
+Gem Chat is a project that leverages Google's Gemini Pro model. It comprises of two parts: 
 
 1. A simple Q&A module for users to ask their questions
 2. An image vision module for users to query on their images
